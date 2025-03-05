@@ -10,7 +10,9 @@
     <p>build code to world</p>
     <div class="fater">
     <img src="./微信图片_20250305231053.jpg"  class="photo">
-   </div>
+
+    <button onclick="alertfunction()" class="button">点击弹框</button>
+    
 
     <style>
         .fater{
@@ -23,6 +25,21 @@
             height: 200px;
             border-radius: 50%;
         }
+        .button{
+            display: block;
+        }
     </style>
+   <script>
+    // const alertfunction=()=>{
+    //     console.log('hello world,张文轩');
+    //     alert('张文轩是个代码');
+    // }
+
+    function alertfunction(){
+        console.log('hello world,张文轩');
+      alert('张文轩是个代码');
+    }
+
+  </script>
 </body>
 </html>
